@@ -1,0 +1,134 @@
+/* STYLING BODY */
+/* adding background image */
+body, html 
+{
+	background-image: url(./images/background.gif);
+}
+
+
+/* STYLING HEADER */
+
+/* removing margin from block elements h1 and p in header, shifting them right and assigning font size */
+#pgheading
+{
+	font-size: 37px;
+	left: 30px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#pgsubheading 
+{
+ 	margin: 0 auto;
+	position: relative;
+	font-size: 20px;
+	left: 70px;
+}
+
+
+/* STYLING NAVIGATION BAR */
+
+/* changing background colour and adding padding for the nav bar */
+.navbar 
+{
+	background-color: #8AD9FF;
+	padding: 10px;
+}
+
+/* removing bullets, adding padding and changing the list to horizontal */
+li.navbar
+{
+	list-style-type: none;
+	padding: 5px;
+	display: inline;
+}	
+
+/* changing background color, adding padding, removing the underline, making the corners of the border rounded, and
+increasing font-size */
+a.menu
+{
+    background-color: #33cc33;
+	padding: 6px;
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-block;
+	border-radius: 9px;
+	font-size: 26px;
+}
+
+/* changing the background color of a visited menu link */
+a.menu:visited 
+{
+    background-color: green;
+}
+
+/* changing the background color of a menu link being hovered over */
+a.menu:hover 
+{
+	background-color: #009900;
+}
+
+/* changing the background color of an active menu link */
+a.menu:active 
+{
+    background-color: #339933
+}
+
+/* STYLING PAGE FORMAT */
+
+/* reducing the width, adding background and removing margin of elements <div> and <table> */
+div, table
+{
+	width: 75%;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+/* adding padding to images */
+img 
+{
+	padding: 10px;
+}
+
+/* adding padding to headings */
+h2, h3, h4 
+{
+	padding: 10px;
+}
+
+/* adding padding to paragraphs */
+p 
+{
+	padding: 10px;
+}
+
+/* adding padding to list items (other than navbar) */
+li 
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+
+/* STYLING BIRD INFO TABLES */
+.birdinfotable 
+{
+	display: inline-block;
+}
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+
+	
